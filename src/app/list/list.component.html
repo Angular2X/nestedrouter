@@ -1,0 +1,10 @@
+<div class="products-list-left">
+  <product-list
+    [productList]="products"
+    (onProductSelected)="productWasSelected($event)">
+  </product-list>
+</div>
+
+<div class="products-list-right">
+  <router-outlet></router-outlet>
+</div>
